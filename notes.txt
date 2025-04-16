@@ -1,0 +1,52 @@
+HTML---> Hyper Text  Markup Language.
+
+.html---> extension
+
+index---> should be the name of the first HTML file.(this will get executed first)
+
+Hyper Text --> text which takes you to another destiny.(link)
+Markup ---> tags
+
+it is used to create and structure content on the web -- like text, images, links etc....
+
+Boilerplate
+------------- 
+
+basice structure of HTML---> html---> head---(meta), body-->(web contents)
+
+metaData---> the details about the web page. ASCII, UTF-8
+body---> contents of the webpage.
+
+
+Tag Format---> <> </>
+
+void tags(self closing tags) ---> <>
+null void tags  ---> <> </>
+
+
+selecting a file from another file:
+--------------------------------------
+sibiling file---> ./
+child file--> /
+parent file ----> ../
+
+
+Basic HTML Tags.
+-------------------
+
+h1-h6---> used to create headings
+p---> seperating and structuring Web Contents.
+a(anchor)---> used to create links.
+div---> to create box structures and seperate elements
+
+
+
+list tags
+----------
+Ordered list
+ol, li
+
+Unordered List
+ul,li
+
+image---> img
