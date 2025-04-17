@@ -50,3 +50,55 @@ Unordered List
 ul,li
 
 image---> img
+
+
+Text Formatting Tags 
+---------------------
+b---> makes  the text bolder
+strong---> make the text bolder
+i---> italic(it will make italic font style)
+sup---> syper script 
+del---> deleted text
+mark---> highlighting
+
+Entities
+__________
+
+&text;--> "<", ">"....
+
+
+Tables
+__________
+Arranged data in rows and columns.
+
+table---> thead, tbody, tr, td, th
+
+task 1
+----------
+sno, name, role(fed, bed , fsd), skills
+atleast 5 data
+
+br, hr 
+---------
+
+br---> used to break the line
+hr----> horizontal line
+
+
+Forms
+__________
+
+form is a tool using which we can collect data from our user.
+
+
+form---> input
+text--> used to collect texxt data
+number---> gets nummeric data
+password---> hidden text
+radio---> options(you can select only one)
+checkbox---> multiple options
+reset---> reset the form data
+submit--> to submit the form
+
+color
+range
