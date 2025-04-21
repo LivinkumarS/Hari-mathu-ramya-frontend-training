@@ -1,3 +1,6 @@
+Webpage---> a single document like a page in a book.
+Website---> collection of multiple webpages like the book.
+
 HTML---> Hyper Text  Markup Language.
 
 .html---> extension
@@ -102,3 +105,46 @@ submit--> to submit the form
 
 color
 range
+
+
+Developer tools: ctrl + shft + I
+
+CSS---> Cascading Style Sheet.
+-------------------------------
+
+extension--->.css
+
+Used to Style The HTML Contents.
+
+Syntax---> selector{
+    property1: value;
+    property2: value;
+    . . .
+}
+
+example property: background-color: red;
+
+Inserting CSS into HTML
+-------------------------
+Inline,
+Internal,
+External.
+
+Internal---> style tag in head.
+external----> we would create a seperate css file and attach it into HTML
+inline---> we would create an attribute called style and write css as a string.
+
+
+Selectiong Methods: 
+-------------------
+tag name selector---> using the tag name as the selector
+id name selector----> using it's id name. # as a prefix. #id_name.
+1) id name must be unique.
+2) a single tag can hold only one id name.
+
+class name selector---> using it's class name. . as a prefix
+.class_name
+1) class name can be repeated among tags.
+2) a single tag can hold multiple class names.
+
+inline > id > class > tag.
