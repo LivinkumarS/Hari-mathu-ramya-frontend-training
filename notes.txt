@@ -3,6 +3,8 @@ Website---> collection of multiple webpages like the book.
 
 HTML---> Hyper Text  Markup Language.
 
+comment ---><!-- <h1>Heading</h1> --> 
+
 .html---> extension
 
 index---> should be the name of the first HTML file.(this will get executed first)
@@ -112,6 +114,8 @@ Developer tools: ctrl + shft + I
 CSS---> Cascading Style Sheet.
 -------------------------------
 
+commentimg--->ctrl+/
+
 extension--->.css
 
 Used to Style The HTML Contents.
@@ -148,3 +152,41 @@ class name selector---> using it's class name. . as a prefix
 2) a single tag can hold multiple class names.
 
 inline > id > class > tag.
+
+
+
+CSS Units
+___________
+
+Static Units(will not change)
+-------------
+1)px---> 0.26mm
+2)cm---> 10mm
+3)inch
+4)pt--> 0.35mm
+
+Dynamic Units 
+-------------
+1) %
+2) rem
+3) em
+4) vh
+5) vw
+
+Basic Properties of CSS
+___________________________
+
+1) background-color: value;
+
+color values---> 1)name(ex: red, blue), RGB(ex: rgb(num1,num2,num3), 0-255), Hex (#652737)
+
+2) color---> determines text color
+
+
+Text Properties 
+-------------------
+font-size---> determines size of the text.(keyword, manual size).
+font-weight---> determines the thickness of the text.(bold, light, bolder, normal , 100-900)
+font-style
+font-family---> to determine the font family
+text-align---> align the text (start, end, center, justify)

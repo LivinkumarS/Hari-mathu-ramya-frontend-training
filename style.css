@@ -1,8 +1,24 @@
-.head {
-  background-color: green;
+@font-face {
+  font-family: hari;
+  src: url("./fonts/PlaywriteRO-Regular.ttf");
 }
 
+h1 {
+  /* background-color: #ff0040;
+  background-color: rgb(0, 0, 0); */
+  background-color: green;
+  color: aqua;
 
-#hari{
-    background-color: red;
+  /* font-size: medium; */
+  font-weight: 900;
+  font-style: normal;
+  font-family: hari;
+  text-align: center;
+}
+
+p{
+  color: gray;
+  font-size: small;
+  font-size: 600;
+  text-align: justify;
 }
