@@ -151,7 +151,11 @@ class name selector---> using it's class name. . as a prefix
 1) class name can be repeated among tags.
 2) a single tag can hold multiple class names.
 
-inline > id > class > tag.
+Special Selectors
+------------------
+Universal Selector-> will select all the elements. (*)
+
+inline > id > class > tag > *.
 
 
 
@@ -190,3 +194,24 @@ font-weight---> determines the thickness of the text.(bold, light, bolder, norma
 font-style
 font-family---> to determine the font family
 text-align---> align the text (start, end, center, justify)
+
+Box Modelling
+---------------
+Every HTML element is a rectangular box. Box model defines how spacing and size of the element is calculated.
+
+1) Width and Height
+
+2) Padding---> Space around the content--> between content and border.
+
+3) Border--> Sorrounds padding.
+
+4) Margin--> Space outside the element, seperates the element from others.
+
+5)border-radius--> to make curvy edges
+
+6)box-sizing--> defines how total width & height is calculated.
+
+box-sizing: content-box(default); total width= content width+ padding+ border 
+box-sizing: border-box; total width = content width.
+
+

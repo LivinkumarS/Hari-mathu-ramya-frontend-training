@@ -1,24 +1,40 @@
-@font-face {
-  font-family: hari;
-  src: url("./fonts/PlaywriteRO-Regular.ttf");
+*{
+  margin: 0;
+  box-sizing: border-box;
 }
 
-h1 {
-  /* background-color: #ff0040;
-  background-color: rgb(0, 0, 0); */
-  background-color: green;
-  color: aqua;
 
-  /* font-size: medium; */
-  font-weight: 900;
-  font-style: normal;
-  font-family: hari;
+h1{
   text-align: center;
-}
+  width: 500px;
+  height: 100px; 
+  background-color: aqua;
+  /* padding: 20px; */
+  /* padding-left: 10px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  padding-right: 0px; */
+  /* padding: 20px 10px;  TB--LR */
+  padding: 10px 20px 30px 40px;
 
-p{
-  color: gray;
-  font-size: small;
-  font-size: 600;
-  text-align: justify;
+  /* border-width: 2px;
+  border-style: solid;
+  border-color: black; */
+
+  border: 2px solid black;
+  /* margin: 10px; */
+
+  /* margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 44px;
+  margin-right: 50px; */
+
+  /* margin: 10px 20px;
+  margin: 10px 10px 20px 40px; */
+  margin: 30px auto;
+
+  /* border-radius: 50px; */
+
+  /* box-sizing: content-box; */
+  /* box-sizing: border-box; */
 }
