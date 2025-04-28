@@ -171,11 +171,11 @@ Static Units(will not change)
 
 Dynamic Units 
 -------------
-1) %
-2) rem
-3) em
-4) vh
-5) vw
+1) %(percentage) - (relative to the parent element's dimension)
+2) rem(root em) - (relative to root element's font size)(16px)
+3) em(em) - (relative to the parent element's font size)
+4) vh(viewport height) ---> relative to screen's height
+5) vw(viewport width) --> relative to screen's width
 
 Basic Properties of CSS
 ___________________________

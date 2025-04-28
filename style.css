@@ -1,40 +1,33 @@
 *{
+  padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
-
-h1{
-  text-align: center;
-  width: 500px;
-  height: 100px; 
+.parent{
+  width:  50vw;
+  height: 110vh;
+  /* 100% of screen height */
   background-color: aqua;
-  /* padding: 20px; */
-  /* padding-left: 10px;
-  padding-top: 100px;
-  padding-bottom: 20px;
-  padding-right: 0px; */
-  /* padding: 20px 10px;  TB--LR */
-  padding: 10px 20px 30px 40px;
-
-  /* border-width: 2px;
-  border-style: solid;
-  border-color: black; */
-
-  border: 2px solid black;
-  /* margin: 10px; */
-
-  /* margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 44px;
-  margin-right: 50px; */
-
-  /* margin: 10px 20px;
-  margin: 10px 10px 20px 40px; */
-  margin: 30px auto;
-
-  /* border-radius: 50px; */
-
-  /* box-sizing: content-box; */
-  /* box-sizing: border-box; */
+  border: 1px solid gray;
+  padding: 0;
+  
+  font-size: 1rem; 
+  /* 100% of root ele's fs(16px) */
 }
+
+.child{
+  background-color: red;
+  width: 50%; 
+  /* 50% of 500px */
+
+  height: 40%;
+  /* 40% of 500px */
+
+  padding: 10%;
+  /* 10% of width*/
+
+  font-size: 1.5em;
+  /* 100% of parents font size */
+
+}
+
