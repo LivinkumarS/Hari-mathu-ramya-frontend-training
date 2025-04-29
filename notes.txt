@@ -157,6 +157,25 @@ Universal Selector-> will select all the elements. (*)
 
 inline > id > class > tag > *.
 
+Descendant Selector ( )(inheritance)
+------------------------
+
+grand father ---> father--> son --> grand son
+
+selector1 selector2{
+
+}
+
+div p{
+
+}
+
+Direct Descendant Selector (>)(child)
+------------------------------
+
+selector1>selector2{
+
+}
 
 
 CSS Units

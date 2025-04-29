@@ -3,31 +3,6 @@
   margin: 0;
 }
 
-.parent{
-  width:  50vw;
-  height: 110vh;
-  /* 100% of screen height */
-  background-color: aqua;
-  border: 1px solid gray;
-  padding: 0;
-  
-  font-size: 1rem; 
-  /* 100% of root ele's fs(16px) */
+body div > p{
+  background-color: greenyellow;
 }
-
-.child{
-  background-color: red;
-  width: 50%; 
-  /* 50% of 500px */
-
-  height: 40%;
-  /* 40% of 500px */
-
-  padding: 10%;
-  /* 10% of width*/
-
-  font-size: 1.5em;
-  /* 100% of parents font size */
-
-}
-
