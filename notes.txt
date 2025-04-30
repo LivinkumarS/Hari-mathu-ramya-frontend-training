@@ -177,6 +177,36 @@ selector1>selector2{
 
 }
 
+Attribute Selector 
+-------------------
+Attribute-(Additional Information about the element)
+
+
+ele[attributeName]{
+    
+}
+
+ele[attributeName="value"]{
+
+}
+
+Pseudo Selectors 
+----------------
+1) Pseudo Classes(:)
+(they defines a special state of an element)
+>:hover----> when we hover over it
+>:focus----> when element is focused(input)
+>:first-child ---> when an element is the first child of it's parent
+>:last-child --> when an element is the last child of it's parent
+>:nth-child(3)-->(odd,even)
+
+2) Pseudo Element (::)
+(selects part of an element.)
+>::first-letter---> selects first letter of an element
+>::first-line---> selects first line of an element
+>::before ---> inserts content before the actual contents
+>::after ---> inserts content after the actual contents
+
 
 CSS Units
 ___________

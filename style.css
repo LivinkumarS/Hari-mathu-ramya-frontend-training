@@ -1,8 +1,52 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
-body div > p{
-  background-color: greenyellow;
+/* 
+div{
+  background-color: aqua;
+} */
+
+/* a[href="https://www.google.com"]{
+  font-size: larger;
+  font-weight: bold;
+} */
+
+/* p:hover{
+  background-color: red;
+  margin-bottom: 20px;
+} */
+
+/* input{
+  margin: 10px 0;
 }
+
+input:focus{
+  background-color: yellow;
+} */
+/* 
+li:nth-child(even){
+  background-color: green;
+  font-size: larger;
+} */
+
+/* li::first-letter{
+  font-size: 40px;
+} */
+/* 
+p::first-line{
+  background-color: gray;
+} */
+
+/* div:first-child > p::before{
+  content: "welcome";
+  font-size: larger;
+  color: red;
+} */
+/* 
+div:first-child > p::after{
+  content: "welcome";
+  font-size: larger;
+  color: red;
+} */
