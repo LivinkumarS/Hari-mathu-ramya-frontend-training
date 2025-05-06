@@ -264,3 +264,57 @@ box-sizing: content-box(default); total width= content width+ padding+ border
 box-sizing: border-box; total width = content width.
 
 
+Document flow ---> Normal arrangement of elements in a webpage without any positioning properties.
+
+z-index ---> controls stacking of Order in z-axis
+
+Positioning 
+------------
+controls how the elements are placed in webpage.
+
+Types of positioning.
+----------------------
+1) Static
+2) Relative 
+3) Fixed 
+4) Absolute 
+5) Sticky.
+
+5 properties for positioning.
+--------------------------------
+
+>position
+>top 
+>bottom
+>left
+>right
+
+
+Static 
+______________ 
+Element are positioned according to the normal flow of the document.
+
+Relative 
+__________
+Position an element relative to the original position.(the element will not be removed from the document flow)
+
+Absolute 
+___________________________
+Positioning relative to Nearest Positioned Ancestor.
+
+child1-->NPA(.parent)
+
+1)the element will get removed from the document flow
+2)NPA --> Ancestor--> Higher Order Tags, Positioned Ancestor--> Ancestor tag that have positioning properties(relative, absolute or fixed), 
+
+Fixed 
+__________
+1) element will be removed from document flow.
+2) positioned relative to  the viewport.(browser window)
+3) fixed in the specific place forever
+
+Sticky
+__________
+Hybrid of relative and fixed.
+1) will not be removed from document flow.(relative)
+2)it will stay in the specific place when it reaches the destiny
