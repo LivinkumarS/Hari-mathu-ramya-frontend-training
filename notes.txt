@@ -318,3 +318,27 @@ __________
 Hybrid of relative and fixed.
 1) will not be removed from document flow.(relative)
 2)it will stay in the specific place when it reaches the destiny
+
+
+
+Tranform properties
+-------------------
+it allows you to apply 2d or 3d transformations to elements without changing the document flow.
+
+transform: ;
+
+Translate---> moves an element towords both x,y direction.
+transform: translateX(); +(right) -(left)
+transform: translateY(); +(bottom) -(top)
+transform: translate();
+
+Scale---> scales an element(defines size)
+transform: scaleX()
+transform: scaleY()
+transform: scale()
+
+
+Rotate---> Rotates the element 
+transform: rotate() +(right) -(left)
+transform: rotateX() 
+transform: rotateY() 

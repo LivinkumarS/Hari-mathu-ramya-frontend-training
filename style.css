@@ -3,57 +3,19 @@
   margin: 0;
 }
 
-.parent {
-  position: relative;
-  margin: 30px auto;
-  width: 500px;
-  height: 500px;
-  border: 1px solid black;
-}
-
-body {
-  border: 1px solid black;
-  margin: 30px;
-  position: relative;
-}
-
-/* parent, body, html--> ances. */
-
-/* body, --> positioned ances.*/
-
-/* body ---> NPA*/
-
-.fix{
-  background-color: blueviolet;
-  width: 300px;
-  height: 100px;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.stick {
-  position: sticky;
-
-  top: 20px; /* 20px from the top of the viewport. it will become fixed*/
-
-  width: 200px;
-  height: 100px;
-  background-color: chartreuse;
-}
-
-.child1 {
-  position: absolute;
-  background-color: green;
+.box{
+  font-size: 50px;
+  text-align: center;
+  font-weight: bolder;
+  margin: 300px auto;
   width: 100px;
   height: 100px;
+  background-color: aqua;
+  /* transform: translate(-80px,-80px); */
 
-  bottom: 0;
-  left: 0;
-}
+  /* transform: scaleY(3); */
+  /* transform: scale(3);  */
 
-.child2 {
-  background-color: red;
-  width: 200px;
-  height: 200px;
+  transform: rotateX(0deg);
+
 }
