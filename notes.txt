@@ -342,3 +342,33 @@ Rotate---> Rotates the element
 transform: rotate() +(right) -(left)
 transform: rotateX() 
 transform: rotateY() 
+
+
+Display Properties
+-------------------
+
+It defines how the elements are being displayed in the layout.
+
+Block----> (default for body, section, div, h1-16, p, ul, ol, form, li...)
+1) consumes the 100% of available width.
+2)starts in the new line.
+3)width and height can be given
+
+Inline--->(default for a, span..)
+opposite to block
+1) only needed width.
+2) prefers the empty spaces(won't start new line)
+3)width and height cannot be given
+
+Inline-block---> (default for img..)
+hybrid of both inline and block
+1) only needed width.
+2) prefers the empty spaces(won't start new line)
+3)width and height can be given
+
+None----> element will be disappeared
+
+
+
+
+Flex

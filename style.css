@@ -3,20 +3,23 @@
   margin: 0;
 }
 
-.parent{
-  width: 530px;
-  height: 300px;
-  border: 1px solid black;
-  position: relative;
-  margin: 30px auto;
+
+div{
+  background-color: red;
+  width: 1000px;
+  display: inline;
+
 }
 
-.child{
-  width: 50px;
-  height: 40px;
-  background-color: red;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+a{
+  background-color: gray;
+  width: 1000px;
+  height: 100px;
+  display: none;
+}
+
+
+img{
+  display: block;
+  width: 100px;
 }
