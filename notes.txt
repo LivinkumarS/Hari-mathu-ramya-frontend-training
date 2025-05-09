@@ -358,13 +358,13 @@ Inline--->(default for a, span..)
 opposite to block
 1) only needed width.
 2) prefers the empty spaces(won't start new line)
-3)width and height cannot be given
+3) width and height cannot be given
 
 Inline-block---> (default for img..)
 hybrid of both inline and block
 1) only needed width.
 2) prefers the empty spaces(won't start new line)
-3)width and height can be given
+3) width and height can be given
 
 None----> element will be disappeared
 
@@ -372,3 +372,32 @@ None----> element will be disappeared
 
 
 Flex
+-------
+Flex is a tools used to create One Dimentiinal layouts. I allows you to align and distribute space among items in a container.
+
+
+Arrage the items through main axis
+
+display:flex;
+
+flex-direction: row;---> defines the direction of arrangement.
+
+
+flex direction---> (default row.)
+
+Row---> X-axis---> main axis. Y axis---> cross axis
+Column--> Y axis--->main . X axis---> cross 
+
+
+Align Items:
+-------------
+
+Aligns the children through cross axis.
+default---> stretch
+values---> flex-start, center, flex-end
+
+Justify Contents
+-------------------
+Throgh main axis
+default---> flex-start
+values---> flex-end, center, space-between, space-around, space-evenly.

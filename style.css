@@ -3,23 +3,28 @@
   margin: 0;
 }
 
+.parent {
+  display: flex;
+  flex-direction: row;
 
-div{
-  background-color: red;
-  width: 1000px;
-  display: inline;
 
+  align-items: flex-end;
+  justify-content: flex-end;
+
+
+
+
+
+  border: 1px solid black;
+  margin: 30px auto;
+  width: 700px;
+  height: 500px;
 }
 
-a{
-  background-color: gray;
-  width: 1000px;
-  height: 100px;
-  display: none;
-}
-
-
-img{
-  display: block;
+.parent > div {
   width: 100px;
+  background-color: red;
+  border: 1px solid gray;
 }
+
+
