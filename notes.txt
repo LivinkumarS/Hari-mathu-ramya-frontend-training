@@ -401,3 +401,31 @@ Justify Contents
 Throgh main axis
 default---> flex-start
 values---> flex-end, center, space-between, space-around, space-evenly.
+
+gap
+----
+creates gap between the contents.
+gap: ;
+
+flex
+------
+it defines the ratio how the free spaces are being filled up by children.
+
+should be applied to the flex children.
+
+flex-shrink
+-------------
+
+(default) 1 ---> the width will be reduced as the screen's width reduce
+
+0---> will not reduce
+
+flex-grow
+----------
+
+1---> the children will fill up the empty spaces.
+0 (default) ----> will not fill up the empty space
+
+order 
+------
+we can change the order of children using this property.
