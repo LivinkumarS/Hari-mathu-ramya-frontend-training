@@ -3,60 +3,58 @@
   margin: 0;
 }
 
-.parent {
+body {
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #2a2d57;
+}
 
-  align-items: start;
+.parent {
+  width: 750px;
+  height: 400px;
+  display: flex;
+  align-items: stretch;
   gap: 10px;
+}
 
-  border: 1px solid black;
-  margin: 30px auto;
+.parent > .child1 {
+  flex: 22;
+  background-color: #6ebf50;
+}
+
+.parent > .child2 {
+  flex: 40;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.parent > .child2 > .sec1 {
   width: 100%;
-  /* height: 500px; */
-  /* height: auto; */
+  flex: 1;
+  background-color: #6ebf50;
 }
 
-.parent > div {
-  width: 200px;
+.parent > .child2 > .sec2 {
+  width: 100%;
+  flex: 1;
+  background-color: yellow;
 }
 
-.child1 {
-  background-color: blueviolet;
-  flex-grow: 1;
-  order: 0;
+.parent > .child2 > .sec3 {
+  width: 100%;
+  flex: 1;
+  background-color: yellow;
 }
 
-.child2 {
-  background-color: lightblue;
-  flex-grow: 2;
-  order: 2;
+.parent > .child3 {
+  flex: 22;
+  background-color: #000;
 }
 
-.child3 {
-  background-color: lightgreen;
-  order: 3;
-}
 
-.child4 {
-  background-color: lightcoral;
-  order: -1;
-}
-
-/* 0:0:0:1 */
-
-/* empty */
-
-/* 0+0+0+1 = 1 */
-/* 700/1 = 700px */
-/* 0*700 = 0px */
-/* 0*700 = 0px */
-/* 0*700 = 0px */
-/* 1*700 = 700px */
-
-/* 1+2+3+1 = 7 */
-/* 700/7 = 100px */
-/* 1*100 = 100px */
-/* 2*100 = 200px */
-/* 3*100 = 300px */
-/* 1*100 = 100px */
+/* #fab32f yellow */
+/* #ed3437 red */
