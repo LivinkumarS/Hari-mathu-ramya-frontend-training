@@ -10,41 +10,36 @@ body {
   height: 100vh;
 }
 
-div {
-  background-color: red;
+.parent {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.child {
   width: 100px;
   height: 100px;
-  animation: hari 20s ease-in-out infinite;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* animation: move 2s ease-in infinite; */
 }
 
-h1{
-  animation: hari 20s ease-in-out infinite;
-}
-
-/* div:hover {
-  background-color: blue;
-  transform: scale(2);
-} */
-
-/* animations */
-
-@keyframes hari {
+@keyframes move {
   0% {
-    background-color: red;
-  }
-  25% {
-    background-color: blue;
-    transform: scale(2);
+    top: 0;
+    left: 0;
   }
   50% {
-    background-color: green;
-    transform: scale(.5);
+    top: 0;
+    left: 100%;
+    transform: translateX(-100%);
   }
-  75% {
-    background-color: yellow;
-    transform: scale(2.5);
-  }
-  100% {
-    background-color: red;
+  100%{
+    top: 0;
+    left: 0;
+    transform: translateX(0);
   }
 }
