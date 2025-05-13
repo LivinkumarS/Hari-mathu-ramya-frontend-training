@@ -337,11 +337,14 @@ transform: scaleX()
 transform: scaleY()
 transform: scale()
 
+1,2
+
 
 Rotate---> Rotates the element 
 transform: rotate() +(right) -(left)
 transform: rotateX() 
 transform: rotateY() 
+
 
 
 Display Properties
@@ -429,3 +432,25 @@ flex-grow
 order 
 ------
 we can change the order of children using this property.
+
+
+CSS Transition
+----------------
+css Transition allows you to smoothly animate the changes
+syntax:
+-------
+transition: property(all) duration(1s) timing-function(ease,linear);
+            
+
+Key frames
+------------
+Keyframe animations allow you to define intermediate steps for continuous animations.
+
+
+step: create keyframes.
+@keyframes name {
+
+}
+
+step2: adding that animatio to an element.
+animation: name duration timing-function iteration-count;

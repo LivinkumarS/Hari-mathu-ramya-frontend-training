@@ -5,56 +5,46 @@
 
 body {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  width: 100vw;
   height: 100vh;
-  background-color: #2a2d57;
 }
 
-.parent {
-  width: 750px;
-  height: 400px;
-  display: flex;
-  align-items: stretch;
-  gap: 10px;
+div {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  animation: hari 20s ease-in-out infinite;
 }
 
-.parent > .child1 {
-  flex: 22;
-  background-color: #6ebf50;
+h1{
+  animation: hari 20s ease-in-out infinite;
 }
 
-.parent > .child2 {
-  flex: 40;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+/* div:hover {
+  background-color: blue;
+  transform: scale(2);
+} */
+
+/* animations */
+
+@keyframes hari {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: blue;
+    transform: scale(2);
+  }
+  50% {
+    background-color: green;
+    transform: scale(.5);
+  }
+  75% {
+    background-color: yellow;
+    transform: scale(2.5);
+  }
+  100% {
+    background-color: red;
+  }
 }
-
-.parent > .child2 > .sec1 {
-  width: 100%;
-  flex: 1;
-  background-color: #6ebf50;
-}
-
-.parent > .child2 > .sec2 {
-  width: 100%;
-  flex: 1;
-  background-color: yellow;
-}
-
-.parent > .child2 > .sec3 {
-  width: 100%;
-  flex: 1;
-  background-color: yellow;
-}
-
-.parent > .child3 {
-  flex: 22;
-  background-color: #000;
-}
-
-
-/* #fab32f yellow */
-/* #ed3437 red */
