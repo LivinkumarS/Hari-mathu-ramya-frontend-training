@@ -454,3 +454,14 @@ step: create keyframes.
 
 step2: adding that animatio to an element.
 animation: name duration timing-function iteration-count;
+
+
+Grid
+-----
+
+CSS grid is a layout system that controls layout in both rows and columns.
+used to create complex layouts.
+
+step1: display: grid;
+step2: mention the layout's column and rows.(fr, static)(grid-template-columns, grid-template-rows, grid-auto-rows)
+step3: assign gap.(gap)

@@ -3,43 +3,22 @@
   margin: 0;
 }
 
-body {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100vh;
-}
+.parent{
+  display: grid;
+  grid-template-columns: 100px 200px 100px;
+  grid-template-rows: 100px 200px 100px ;
 
-.parent {
-  width: 500px;
-  height: 500px;
+  grid-auto-rows: 100px;
+
+  gap: 10px;
+
+  width: fit-content;
+  /* height: 500px; */
+
   border: 1px solid black;
-  position: relative;
+  margin: 50px auto;
 }
 
-.child {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  position: absolute;
-  top: 0;
-  left: 0;
-  /* animation: move 2s ease-in infinite; */
-}
-
-@keyframes move {
-  0% {
-    top: 0;
-    left: 0;
-  }
-  50% {
-    top: 0;
-    left: 100%;
-    transform: translateX(-100%);
-  }
-  100%{
-    top: 0;
-    left: 0;
-    transform: translateX(0);
-  }
+.parent>.child{
+  background-color: green;
 }
