@@ -474,3 +474,15 @@ step3: assign gap.(gap)
 
 grid-column: 0/1; the container starts at 0 column and ends at 1
 grid/row: num1/num2
+
+
+
+
+
+
+Adding BG Image 
+___________________________
+1) background: url("address);
+2)  background-repeat: repeat, repeat-x, repeat-y, no-repeat;
+3)background-position: center;
+4)background-size: auto;

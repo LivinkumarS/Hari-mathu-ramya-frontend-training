@@ -1,31 +1,39 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.parent {
+  background: url("./images/ajith.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  background-attachment: fixed;
+
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  position: relative;
+  border: 1px solid black;
 }
 
-.parent{
-  border: 1px solid #000;
-  padding: 10px;
-  width: 500px;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  flex-wrap: wrap;
-  gap: 10px;
+.parent > div {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
 }
 
-.parent>div{
-  flex-shrink: 0;
-  background-color: #2c2e57;
-  width: 150px;
-  height: 150px;
+.parent h1 {
+  color: black;
+  font-weight: bolder;
+}
+
+.parent p {
+  width: 600px;
+  font-size: smaller;
+  color: black;
 }
