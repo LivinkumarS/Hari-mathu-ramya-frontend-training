@@ -465,3 +465,8 @@ used to create complex layouts.
 step1: display: grid;
 step2: mention the layout's column and rows.(fr, static)(grid-template-columns, grid-template-rows, grid-auto-rows)
 step3: assign gap.(gap)
+
+
+
+grid-column: 0/1; the container starts at 0 column and ends at 1
+grid/row: num1/num2
