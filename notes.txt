@@ -433,6 +433,10 @@ order
 ------
 we can change the order of children using this property.
 
+flex wrap
+--------------
+
+
 
 CSS Transition
 ----------------
