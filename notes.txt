@@ -486,3 +486,29 @@ ___________________________
 2)  background-repeat: repeat, repeat-x, repeat-y, no-repeat;
 3)background-position: center;
 4)background-size: auto;
+
+
+
+Responsive Design
+-----------------------
+
+Responsive Design is an approach to web design that makes website look well and functional on all devices.  (all screen sizes).
+
+flexbox, grid, media.
+
+
+media queries
+----------------
+it is used to apply styles based on the device's characteristics such as screen widt, orientation...etc.
+
+@media (condition) {
+  
+  //style
+
+}
+
+conditions----> 1) min-width:value--> ex: min-width:700px. 700px or greater.
+
+2) max-width---> ex: max-width: 700px. 700px or lesser.
+
+and operator ---> (condition1) and (condition2)
