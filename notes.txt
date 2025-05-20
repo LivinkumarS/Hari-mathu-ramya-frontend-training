@@ -1,0 +1,30 @@
+JavaScript(.js)
+--------------
+
+What is Programming Language?
+-------------------------------------
+it is set of instructions that a computer can understand and follow to perform specific tasks.
+
+c, python, c++, JS, Java, Ruby, Csharp....
+
+Versatile ---> having multiple uses.(Versatile Programming Language.)
+Interpretted Programming Language ---> Code will get executed line byline directly without compiling it to a machine code.
+
+opposite (compiler)
+
+
+(HTML, CSS)---> Static Websites.(cant respond to user)
+(JS)---> Dynamic Websites.(responds to user's action).
+
+
+Syntax
+-------
+syntax is set of rules that defines how the code should be written.
+";"---> Good practice to put this symbol after every instructions.
+
+Printing "Hello world"
+-----------------------
+console.log("Hello World")
+Run JS Code ---> Using Node,  Browser(JS Engines).
+
+Attaching JS into HTML---> script tag. (<script src="./app.js"></script>)
