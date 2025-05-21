@@ -27,4 +27,69 @@ Printing "Hello world"
 console.log("Hello World")
 Run JS Code ---> Using Node,  Browser(JS Engines).
 
-Attaching JS into HTML---> script tag. (<script src="./app.js"></script>)
+Attaching JS into HTML---> script tag. (<script src="./app.js"></script>).
+
+
+Variables
+----------------
+Variables are containers for storing data values.
+
+3 keywords to initiate Variables
+-------------------------------------
+var ---> mutable(value can be changed)
+let ---> mutable
+const--> immutable(value cannot be changed). 
+
+syntax 
+-------
+keyword variable_name = data;
+
+
+Data Types
+------------
+set of information is called data. 
+
+Primitive, Reference.
+------------------------
+
+Primitive----> Stores Values Directly in variables.
+let num=10;
+let num1=num; // copying 10(new data)
+
+String 
+--------
+Sequence of characters.
+"", '', ``(backtick. we would use it to create (template literals))
+
+concatination---> Joining to string (+)
+
+String Methods
+---------------
+1) length---> used to find the length of a string.
+2) toUpperCase()---> converts to upperCase
+3) toLowerCase()---> converts to lowerCase
+4)charAt(index number)---> gives the charav=cter at the specific index.
+5)includes("string")---> boolean value that says whether the given string is included in the string or not 
+
+Number
+-------
+Numerical Values including both integers and floats.
+
+integers----> -10, 10, 4, 0.
+Floats------>3.14, 1.000
+
+
+Boolean
+--------
+Boolean Represents Logical Value. (True or False).
+
+undefined
+----------
+Variable Has been declared but not assigned a value.
+
+null
+----
+intentional absence of any value.
+
+
+
