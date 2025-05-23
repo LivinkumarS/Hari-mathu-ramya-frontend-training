@@ -127,3 +127,14 @@ Assignment operation
 /=  --->div and assign
 %=  --->mod and assign
 **=  --->exponent and assign
+
+Comparison operator (boolean)
+--------------------
+== ---> (loose equal) --> comparest two value whether those are same or not.
+=== ---> (trict equal)---> comparest two value whether those are same or not (dataType also matters)
+!= --> not equal
+> --> gt
+< --> lt
+
+>= --> ge
+<= -->le 
