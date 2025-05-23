@@ -1,11 +1,12 @@
-// Comparison operator
+// Logical Operator
 
-let a = 10;
+// console.log(true && false);
+// console.log(true || true);
 
-// console.log("Hello" == "hello");
+// console.log(!false);
 
-// console.log(10 === "10");
+// console.log(!(!true || false) && 1 <= 10); //r-t, m-t, h-t
 
-//console.log(a != 11); //a is not equal to 10
+// let a = true;
 
-console.log(a >= 20); 
+// console.log(!((a && true) || !a || (a && !(a + 10 < a / 10))) && !a);

@@ -138,3 +138,13 @@ Comparison operator (boolean)
 
 >= --> ge
 <= -->le 
+
+BODMAS---> B--> Brackets, O-->Of, D---> Division,  M---> Mul, A---> Add, S---> Sub.
+
+
+Logical Operator (boolean values)
+----------------
+
+AND (&&) ----> both are true.
+OR (||) ---> anyone is true
+NOT (!)----> just reverse t=a single boolean
