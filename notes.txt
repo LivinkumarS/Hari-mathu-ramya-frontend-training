@@ -116,3 +116,14 @@ Exponentiation--> ** (power)
 
 Increment--> pre increment (++(prefix)), post (++(suffix))
 Decrement--> pre Decrement (--(prefix)), post (--(suffix))
+
+
+Assignment operation 
+------------------------
+=  ---> assigning value
++=  --->add and assign
+-=  --->sub and assign
+*=  --->mul and assign
+/=  --->div and assign
+%=  --->mod and assign
+**=  --->exponent and assign
