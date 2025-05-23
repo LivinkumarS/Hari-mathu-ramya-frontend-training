@@ -1,57 +1,34 @@
-// let word = "Hello world";
-// word = "hello";
+// Arithmetic
 
-// console.log(word);
+// let a=10
+// let b=20
 
-// String
+// console.log(a+b);
+// console.log(a-b);
+// console.log(a*b);
+// console.log(a/b);
+// console.log(44%20);
+// console.log(2**0);
 
-// let firstName = `Livin`;
-// let LastName = "Kumar";
+// let num = 1;
 
-// console.log(firstName+LastName);
+//let ans = ++num;  //increment first assignment next
+//let ans = num++;  // assignment first increment next
 
-// let Name="I likE coDing";
-// console.log(Name.length);
-// console.log(Name.toUpperCase());
-// console.log(Name.toLowerCase());
-// console.log(Name.charAt(3));
-// console.log(Name.includes(" co"));
+// console.log(ans);
+// console.log(num);
 
-// let Name = "Saala";
-// let age = 21;
-// console.log(`Hello ${Name}!. Your Age is ${age}`);
+//console.log(num++ + ++num); //r-3, h-3,
 
-// Number
+// let num = 10;
+// num--;
+// console.log(num);
 
-// let num1=21
-// let num2=-12
-// let num3=3.33
+// let a = 10; //11
+// let b = a; //10
+// a = 11;
 
-// console.log(num1);
-// console.log(num2);
-// console.log(num3);
+// console.log(b);
 
-let num = 10.66764654635354;
-console.log(num.toFixed(2));
-console.log(typeof num.toString());
-console.log(parseInt("54kffhduhfh")+6);
-console.log(parseFloat("1.334444hguyf"))
-
-
-// Boolean
-
-// let isOk = true;
-// let isAllOk = false;
-
-// console.log(isOk);
-// console.log(isAllOk);
-
-// Undefined
-// let data;
-// console.log(data);
-
-// Null
-
-// let data = null;
-
-// console.log(data);
+// let num = 1; 
+// console.log(0 - 1 + 1); //r-0, m-1.

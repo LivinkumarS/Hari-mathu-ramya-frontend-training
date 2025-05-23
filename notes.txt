@@ -100,3 +100,19 @@ intentional absence of any value.
 
 
 
+
+
+Operations
+_______________
+
+Arithmetic Operation
+----------------------
+Addition----> + 
+Subtraction---> -
+Multiplication-->*
+Division---> /
+modulus---> % (reminder)
+Exponentiation--> ** (power)
+
+Increment--> pre increment (++(prefix)), post (++(suffix))
+Decrement--> pre Decrement (--(prefix)), post (--(suffix))
