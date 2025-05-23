@@ -76,7 +76,14 @@ Number
 Numerical Values including both integers and floats.
 
 integers----> -10, 10, 4, 0.
-Floats------>3.14, 1.000
+Floats------>3.14, 1.000.
+
+Number Methods 
+---------------
+1)toFixed(2)---> Rounds and keeps n decimal point. 1.544535432.
+2)toString()---> number to string conversion.
+3)parseInt(string)---> string into number.
+4)parseFloat(string)----> fetch the float out of a string
 
 
 Boolean

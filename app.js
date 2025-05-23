@@ -31,6 +31,13 @@
 // console.log(num2);
 // console.log(num3);
 
+let num = 10.66764654635354;
+console.log(num.toFixed(2));
+console.log(typeof num.toString());
+console.log(parseInt("54kffhduhfh")+6);
+console.log(parseFloat("1.334444hguyf"))
+
+
 // Boolean
 
 // let isOk = true;
