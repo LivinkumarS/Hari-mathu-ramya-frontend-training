@@ -169,6 +169,33 @@ syntax
 
 if(condition){
     // block of code
+}else if{
+    //block of code
 }else{
     //block of code
 }
+
+
+Truthy and Falsy Values 
+----------------------------
+it determines hoew the expression is evoluated in boolean context.
+
+if("656"){
+}
+
+tryuthy values 
+--------------
+true,
+"hjhdfjhf"---> non-empty string
+[]
+{}
+76756---> otherthan 0
+
+falsy values 
+------------
+false
+""--> empty string,
+undefined,
+null,
+0,
+NaN
