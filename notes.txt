@@ -147,4 +147,28 @@ Logical Operator (boolean values)
 
 AND (&&) ----> both are true.
 OR (||) ---> anyone is true
-NOT (!)----> just reverse t=a single boolean
+NOT (!)----> just reverse a single boolean
+
+
+Ternary Operator
+---------------------
+
+execute code according to the given condition
+
+syntax
+---------
+condition ?  expression1  : expression2;
+
+
+Conditional Clauses
+--------------------
+if and else---> keywords.
+
+syntax
+---------
+
+if(condition){
+    // block of code
+}else{
+    //block of code
+}
