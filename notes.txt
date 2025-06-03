@@ -99,6 +99,11 @@ null
 intentional absence of any value.
 
 
+Reference DataTypes:
+------------------------
+
+
+
 
 
 
@@ -172,7 +177,7 @@ if(condition){
 }else if{
     //block of code
 }else{
-    //block of code
+    //block of  code
 }
 
 
@@ -183,7 +188,7 @@ it determines hoew the expression is evoluated in boolean context.
 if("656"){
 }
 
-tryuthy values 
+truthy values 
 --------------
 true,
 "hjhdfjhf"---> non-empty string
@@ -199,3 +204,45 @@ undefined,
 null,
 0,
 NaN
+
+
+Loops
+-------
+Loops are used to repeat a block of code multiple timmes until the specified condition is met.
+
+for Loop
+-------------
+Used when the number of iteration is known.
+
+syntax
+----------
+
+for(initialization ; condition; increment){
+    // block of code
+}
+
+
+While  Loop 
+--------------
+when the number of iteration is not known.
+
+syntax 
+-----------
+while(condition){
+    //block of code
+}
+
+Do While Loop 
+----------------
+it will execute the block of code atleast once.
+
+syntax
+-------
+do {
+    //code
+} while(condition)
+
+
+for...in and for.. of.
+
+Keywords---> break(breaks the loop), continue(stops the current teration)
