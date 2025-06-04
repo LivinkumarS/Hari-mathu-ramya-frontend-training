@@ -1,72 +1,80 @@
-// for (let i = 0; i < 10; i++) {
-//   console.log(i);
-// }
+// Function Declaration
 
-//10 times
+// sayHi();
 
-// i = 0,-1,-2,-100,,
-
-// 1,2
-
-// While Loop
-
-//let i = 0; //0,1,2.....9,10
-
-// while (i < 10) {
-//   console.log("Hello world");
-//   i++;
-// }
-
-// let continueLoop = true;
-// let secret = 55;
-
-// while (continueLoop) {
-//   let number = prompt("Guess the number: ");
-//   if (parseInt(number) === secret) {
-//     continueLoop = false;
-//     console.log("Congrats You Won!!!");
-
-//   }
-// }
-
-// let ans = prompt("Type a number hari: ");
-
-// console.log(ans);
-
-//33
-
-// Do while
-
-// let i = 10;
-
-// console.log("From Do while");
-
-// do {
-//    console.log(i);
-//   i++;
-// }while (i < 10);
-
-// let a = 10;
-
-// console.log("From While");
-
-// while (a < 10) {
-//   console.log(a);
-//   a++;
-// }
-
-// Break and Continue
-
-let i = 1; //10,11
-
-
-
-
-while (i <= 100) {
-  if (i === 10) {
-    i++;
-    continue;
-  }
-  console.log(i);
-  i++;
+function sayHi() {
+  console.log("Hi");
+  console.log(123);
 }
+
+// sayHi();
+
+// Function Expression
+
+// printName();
+
+const printName = () => {
+  console.log("Saala");
+};
+
+// printName();
+
+function add(a, b) {
+  console.log(a + b);
+}
+
+// add(9, 9);
+// add(99, 99);
+
+// add(66, 34);
+// add(166, 34);
+
+// for (let i = 0; i < 10; i++) {
+//   add(i, i + 1); //add(1,2)
+// }
+
+// 10
+// iter1--> 0,
+
+//1
+
+// Return Keyword
+
+const start = (num) => {
+  console.log("Started!");
+  console.log("Step1");
+  console.log("Step2");
+
+  if (num > 10) {
+    return;
+  }
+
+  console.log("Step3");
+  console.log("Step4");
+  console.log("Step5");
+  console.log("Ended!");
+};
+
+// start(10);
+// start(11);
+
+function sub(a, b) {
+  //30,45
+  let ans = a - b; //-15
+  return ans;
+}
+
+// let val = sub(30, 45) + 100;
+// console.log(val);
+// -15+100
+
+function intro(name, place, age) {
+  return `Hello I am ${name}. I am from ${place}. I am ${age} years old`;
+
+  console.log("Hello world");
+}
+
+console.log(intro("Saala", "Karur", 82));
+
+// let a = 82;
+console.log(82);

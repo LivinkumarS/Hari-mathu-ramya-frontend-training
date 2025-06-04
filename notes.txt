@@ -102,10 +102,37 @@ intentional absence of any value.
 Reference DataTypes:
 ------------------------
 
+Invoking(calling)---> name();
 
+Functions
+-----------
+A function is a reusable block of code designed to perform a specific task.
 
+Function Declaration (named function)
+----------------------------------------
+syntax---> function name(){ // block code }
 
+hoisting---> default hoisting (you can access this function before creating it)
 
+Function Expression 
+-----------------------
+syntax---> const name= () => {// block of code}.
+
+hoisting--> not hoisted defaultly
+
+Arrow Function 
+---------------
+syntax---> ()=>{// block of code}
+
+Parameters and Arguments
+------------------------------
+P--> variables listed in the function definition.
+a--> actual values passed when calling the function.
+
+Return Keyword.
+----------------
+1)breaks the function.
+2) to return a value to the caller.
 
 Operations
 _______________
