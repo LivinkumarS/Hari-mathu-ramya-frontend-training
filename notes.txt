@@ -123,6 +123,8 @@ hoisting--> not hoisted defaultly
 Arrow Function 
 ---------------
 syntax---> ()=>{// block of code}
+no name,
+one time use
 
 Parameters and Arguments
 ------------------------------
@@ -131,8 +133,14 @@ a--> actual values passed when calling the function.
 
 Return Keyword.
 ----------------
-1)breaks the function.
+1) breaks the function.
 2) to return a value to the caller.
+
+
+Callback function 
+----------------------
+CB---> assigning a function as another functions parameter
+
 
 Operations
 _______________

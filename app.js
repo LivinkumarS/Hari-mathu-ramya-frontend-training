@@ -1,80 +1,24 @@
-// Function Declaration
-
-// sayHi();
-
-function sayHi() {
-  console.log("Hi");
-  console.log(123);
-}
-
-// sayHi();
-
-// Function Expression
-
-// printName();
-
-const printName = () => {
-  console.log("Saala");
-};
-
-// printName();
-
-function add(a, b) {
-  console.log(a + b);
-}
-
-// add(9, 9);
-// add(99, 99);
-
-// add(66, 34);
-// add(166, 34);
-
-// for (let i = 0; i < 10; i++) {
-//   add(i, i + 1); //add(1,2)
+// function sayName(name) {
+//   console.log(name);
 // }
 
-// 10
-// iter1--> 0,
+// sayName("Ramya");
 
-//1
-
-// Return Keyword
-
-const start = (num) => {
-  console.log("Started!");
-  console.log("Step1");
-  console.log("Step2");
-
-  if (num > 10) {
-    return;
-  }
-
-  console.log("Step3");
-  console.log("Step4");
-  console.log("Step5");
-  console.log("Ended!");
+const sayHello = (cbfunc, x) => {
+  //sayHi, 12, 10
+  //higher order function
+  cbfunc(x, x - 10); //sayHi(12,10)
 };
 
-// start(10);
-// start(11);
+// function sayHi(a, b) {
+//   console.log(a * b);
+// }
 
-function sub(a, b) {
-  //30,45
-  let ans = a - b; //-15
-  return ans;
-}
+sayHello((a, b) => {
+  console.log(a * b);
+}, 12);
 
-// let val = sub(30, 45) + 100;
-// console.log(val);
-// -15+100
+// let a = 10;
+// console.log(a);
 
-function intro(name, place, age) {
-  return `Hello I am ${name}. I am from ${place}. I am ${age} years old`;
-
-  console.log("Hello world");
-}
-
-console.log(intro("Saala", "Karur", 82));
-
-// let a = 82;
-console.log(82);
+// console.log(10);
