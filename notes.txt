@@ -142,6 +142,27 @@ Callback function
 CB---> assigning a function as another functions parameter
 
 
+Array 
+-------
+used to store multiple values in a single variable.
+syntax---> [val1, val2, val3...]
+
+accessing Methods
+-----------------
+arr.length--> length of an array
+arr[ind]--> to access the elements.
+
+Methods that alter the original array
+----------------------------------------
+1)push(val)----> adds new element at the end
+2)pop()---> removes the last element
+3)unshift(val)--> adds new element at beginning
+4)shift()---> removes the first element
+5)splice(strt index, del count, ........values)
+6)sort()--> arranging the elements (asc, desc)  a-b(asc)b-a(desc)
+7)reverse()---> reversing the array.
+
+
 Operations
 _______________
 

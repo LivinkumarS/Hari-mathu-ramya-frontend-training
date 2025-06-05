@@ -1,24 +1,37 @@
-// function sayName(name) {
-//   console.log(name);
-// }
+let arr = [
+  "apple",
+  "orange",
+  "pineapple",
+  "papaya",
+  "banana",
+  1,
+  2,
+  3,
+  4,
+  true,
+  false,
+];
 
-// sayName("Ramya");
+let arr1 = [1, 132, 234, 32, 234, 3, 324, 54, 56, 5, 5, 54, 34, 324];
 
-const sayHello = (cbfunc, x) => {
-  //sayHi, 12, 10
-  //higher order function
-  cbfunc(x, x - 10); //sayHi(12,10)
-};
+let arr2 = ["apple", "orange", "pineapple", "papaya", "banana"];
 
-// function sayHi(a, b) {
-//   console.log(a * b);
-// }
+// console.log(arr.length);
+// console.log(arr[6]);
 
-sayHello((a, b) => {
-  console.log(a * b);
-}, 12);
+// arr[2]="hddfhghre"
 
-// let a = 10;
-// console.log(a);
+// arr.push("haggududy");
+// arr.pop();
+// arr.pop();
+// arr.unshift(0);
+// arr.unshift(-1);
+// arr.shift();
+// arr.splice(2, 5, 23, 24, 25, "shguer", true);
+// arr.splice(0, 11, 1, 2, 3);
+// arr2.sort((a, b) => {
+//   return a - b;
+// });
+// arr.reverse();
 
-// console.log(10);
+console.log(arr);
