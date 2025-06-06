@@ -162,6 +162,15 @@ Methods that alter the original array
 6)sort()--> arranging the elements (asc, desc)  a-b(asc)b-a(desc)
 7)reverse()---> reversing the array.
 
+Methods that dont alter the original array 
+-----------------------------------------------
+1)concat()----> joins to arrays.
+2)slice(str, end) ---> extracts part of an array.
+3)join()----> returns a string of array elements.
+4)indexOf(ele) --> returns index of given element.
+5)includes(ele) ---> returns boolean.
+
+
 
 Operations
 _______________
