@@ -170,6 +170,9 @@ Methods that dont alter the original array
 4)indexOf(ele) --> returns index of given element.
 5)includes(ele) ---> returns boolean.
 
+6)map()---> returns a new array with transformed values.
+7)filter()---> returns a new array with filtered values.
+8)reduce()---> returns a single value
 
 
 Operations
