@@ -354,3 +354,16 @@ for ...of
 ----------
 (strings, arrays)
 for (let i of name){}
+
+
+
+
+
+Destructuring
+--------------
+let { fname, lname, age } = obj;
+let [n1, n2, n3] = arr;
+
+Spread (...) and Rest 
+-------------------------
+used to spread the values from an array or an object to another array or object
