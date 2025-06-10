@@ -342,4 +342,15 @@ do {
 
 for...in and for.. of.
 
-Keywords---> break(breaks the loop), continue(stops the current teration)
+Keywords---> break(breaks the loop), continue(stops the current teration).
+
+
+for..in 
+----------
+(obj).
+for (let i in obj) {}
+
+for ...of 
+----------
+(strings, arrays)
+for (let i of name){}
