@@ -1,23 +1,40 @@
-let arr = [
-  "apple",
-  242353,
-  234,
-  3,
-  356,
-  432,
-  true,
-  false,
-  [0, 1, 2, 3, 4, 5, [-1, -1, -3, ["apple", "orange", "kiwi"]]],
-  () => {
-    console.log("Hello World");
+// let obj = {
+//   name: "Livinkumar",
+//   age: 88,
+//   canVote: true,
+// };
+
+// let arr = ["Livinkumar", 88, true];
+
+// console.log(obj.canVote);
+// console.log(obj["canVote"]);
+
+// console.log(arr[2]);
+
+// this keyword
+
+let obj = {
+  fname: "harikrishnan",
+  lname: "Ramasamy",
+  canVote: true,
+  marks: 90,
+  favSubjects: [
+    "html",
+    "css",
+    "js",
+    { mostFav: "react", leastfav: ["angular", "node"] },
+  ],
+  print() {
+    console.log(this.fname);
   },
-];
+};
 
-// function hello() {
-//   console.log("Hello world");
-// }
+// obj["print"]();
 
-// hello();
+// let keys = Object.keys(obj);
+// console.log(keys);
 
-// console.log(arr[8][6][3][2][3]);
-console.log(arr[0][4]);
+// let val = Object.values(obj);
+// console.log(val);
+
+console.log(obj.favSubjects[3].leastfav[1]);

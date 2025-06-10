@@ -175,6 +175,35 @@ Methods that dont alter the original array
 8)reduce()---> returns a single value
 
 
+Objects
+--------
+it is a collection of key-value pairs.
+
+syntax 
+--------
+{
+    key1:val,
+    key2:val,
+    key3:val,
+    ....
+}
+
+key---> string,
+val---> can be anything.
+
+methods:
+----------
+
+Object.keys(objName)--> return an array with all the keys
+Object.values(objName)--> return an array with all the values
+
+
+accessing a value 
+------------------
+
+. ----> obj.key
+[] ----> obj["key"]
+
 Operations
 _______________
 
