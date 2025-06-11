@@ -204,6 +204,17 @@ accessing a value
 . ----> obj.key
 [] ----> obj["key"]
 
+
+NaN
+-----
+Not a Number---> it occurs when something went wrong while trying to convert or perform a numeric operation.
+
+isNaN()---> to find whether a number id NaN or not.
+
+
+
+
+
 Operations
 _______________
 
