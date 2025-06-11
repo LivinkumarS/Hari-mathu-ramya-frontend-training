@@ -1,14 +1,11 @@
-// let num = Number("234");
-// let num = 0 / 0;
-// console.log(num);
+// let h1 = document.getElementById("head");
+// let h1 = document.getElementsByClassName("head");
+// let h1 = document.getElementsByTagName("h1");
 
-let a;
-let b = null;
-let c = 0 / 0;
 
-// console.log(c);
-console.log(isNaN(c));
 
-//1,2
+// let h1 = document.querySelector("#head");
+let h1 = document.querySelectorAll("body");
 
-// console.log(typeof c);
+
+console.log(h1);
