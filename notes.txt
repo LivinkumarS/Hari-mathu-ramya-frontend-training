@@ -20,3 +20,38 @@ getElementsByTagName("tag name")---> selecting an element by it's tag name.
 
 querySelector("query") ---> returns only one element.
 querySelectorAll("query") ---> returns all the elements.
+
+
+Manipulating Contents.
+-----------------------
+textContent---> used to manipulate or access the text inside an element.
+innerHTML ---> used to manipulate or access the HTML structure in an element.
+
+Manipulating Attributes 
+-------------------------
+getAttribute("name")---> used to access the attribule inside an element.
+setAttribute("name","value");
+removeAttribute("name")
+
+Manipulating Styles
+----------------------
+element.style.propertyName="value"
+propertyName---> camelCase
+
+ClassName Manipulation
+-----------------------
+element.classList----> accessing class values
+classList.add("value")--> adding class name
+classList.remove("value")--> removing class name
+classList.toggle("value")--> toggling class name
+
+DOM Tree navigation
+-------------------
+.children---> returns all the child elements as an array.
+.firstElementChild---> returns the  first child element
+.lastElementChild---> returns the  first child element
+
+
+.parentElement---> accessing parent element
+
+.previousElementSibling,.nextElementSibling---> returns sibling element.
