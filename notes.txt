@@ -55,3 +55,15 @@ DOM Tree navigation
 .parentElement---> accessing parent element
 
 .previousElementSibling,.nextElementSibling---> returns sibling element.
+
+Creating Element 
+--------------------
+createElement("tag name")---> to create an element.
+
+Inserting
+--------
+
+appendChild---> adding an element at the end.
+prepand----> at the beginning.
+
+insertBefore(element, ref)
