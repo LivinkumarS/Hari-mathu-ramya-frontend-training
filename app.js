@@ -1,12 +1,29 @@
-let newElement = document.createElement("div");
-newElement.textContent = "New Element Created in JavaScript!";
-newElement.style.color = "#657547";
-newElement.style.fontSize = "50px";
-// newElement.textContent = "";
+let btn = document.querySelector("button");
 
-// document.querySelector("body").appendChild(newElement);
-// document.querySelector("body").prepend(newElement);
+// for (let btn of btns) {
+//   btn.addEventListener("click", (e) => {
+//     console.log(e.target);
+//   });
+// }
 
-document
-  .querySelector("body")
-  .insertBefore(newElement, document.querySelector("h2"));
+// btn.nextElementSibling.addEventListener("click", (e) => {
+//   console.log(e.target);
+// });
+
+// function hello() {
+//   console.log("Hello");
+// }
+
+// btn.addEventListener("click", () => {
+//   console.log("Hello");
+// });
+
+// document.querySelector("ul").addEventListener("mouseover", () => {
+//   console.log("Hovering!");
+// });
+
+function hello(event) {
+  console.log(event.target);
+}
+
+// btn.addEventListener("click", hello);

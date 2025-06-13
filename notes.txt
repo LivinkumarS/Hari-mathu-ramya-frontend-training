@@ -67,3 +67,22 @@ appendChild---> adding an element at the end.
 prepand----> at the beginning.
 
 insertBefore(element, ref)
+
+
+
+Event Listeners
+-----------------
+
+it waits for an event to occur and executes corresponding function.
+
+addEventListener("event",cbFunc)
+
+click--->mouse click.
+mouseover---> mose enters an element.
+submit---> when form submitted.
+input---> input value changes.
+
+Inline Event Listeners.
+----------------------------
+
+Attribute---> on+eventName="cbFunc(event)"
