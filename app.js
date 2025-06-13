@@ -1,29 +1,21 @@
-let btn = document.querySelector("button");
+let addBtn = document.getElementById("add");
+let inpTag = document.querySelector("input");
+let ul = document.querySelector("ul");
 
-// for (let btn of btns) {
-//   btn.addEventListener("click", (e) => {
-//     console.log(e.target);
-//   });
-// }
+addBtn.addEventListener("click", () => {
+  let word = inpTag.value;
+  if (word === "") {
+    return;
+  }
+  let newTag = document.createElement("li");
+  newTag.innerHTML = `${word} <button>del</button>`;
+  ul.appendChild(newTag);
+  inpTag.value = "";
+});
 
-// btn.nextElementSibling.addEventListener("click", (e) => {
-//   console.log(e.target);
-// });
+// let h1 = document.querySelector("h1");
 
-// function hello() {
-//   console.log("Hello");
-// }
+// console.log(h1.textContent);
+// h1.textContent = "";
 
-// btn.addEventListener("click", () => {
-//   console.log("Hello");
-// });
-
-// document.querySelector("ul").addEventListener("mouseover", () => {
-//   console.log("Hovering!");
-// });
-
-function hello(event) {
-  console.log(event.target);
-}
-
-// btn.addEventListener("click", hello);
+// Inline Event Listener
