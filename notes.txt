@@ -1,0 +1,15 @@
+React
+------
+React is a Javascript library created by FaceBook for building UI, especially for SPA (Single Page Application).
+
+MPA---> Multi Page App.
+
+Key features of Reacts
+-----------------------
+component based---> UI split into independent pieces.
+Efficient Rendering---> uses virtual DOM for fast updates.
+Re usable code---> write once, use everywhere.
+
+Node---> Runtime environment for JS (used to run JS outside browser).
+NPM---> Package manager.
+
