@@ -13,3 +13,20 @@ Re usable code---> write once, use everywhere.
 Node---> Runtime environment for JS (used to run JS outside browser).
 NPM---> Package manager.
 
+installing other dependencies
+-------------------------------
+npm install "package name"
+
+changing terminal location
+----------------------------
+cd ""
+
+Creating React Application
+---------------------------
+>> npm create vite@latest
+>> cd directory name (changing directory) 
+>> npm install (installing default packages)
+
+Run React Application
+----------------------------
+npm run dev
