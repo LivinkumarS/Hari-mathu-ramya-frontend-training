@@ -30,3 +30,24 @@ Creating React Application
 Run React Application
 ----------------------------
 npm run dev
+
+JSX---> JavaScript XML
+-------------------------
+--> it allows writing HTML-like code inside JS.
+
+Functional components
+----------------------
+JS Function----> returns HTML Code
+
+Import and Export
+---------------------
+to export--->  export default "data name"
+to import----> import dataname from location.
+
+Rules of JSX 
+------------
+> func. component can return only one parent element.
+> class----> className
+
+> html inside js---> ()
+> js inside html --> {}
