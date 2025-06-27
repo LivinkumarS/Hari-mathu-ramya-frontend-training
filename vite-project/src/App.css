@@ -1,0 +1,30 @@
+
+.container{
+    padding: 30px;
+}
+
+.container>h1{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cont{
+    width: 100%;
+    border: .5px solid gray;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.cont>.text{
+    flex: 1;
+    padding: 20px;
+}
+
+.cont>img{
+    width: 200px;
+    aspect-ratio: 1/1;
+}

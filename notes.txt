@@ -35,9 +35,22 @@ JSX---> JavaScript XML
 -------------------------
 --> it allows writing HTML-like code inside JS.
 
+Two types of components
+------------------------
+1) Functional Component(recommendend and mostly used).
+2) class Component
+
 Functional components
 ----------------------
 JS Function----> returns HTML Code
+
+invoking---> <Component name/>
+
+props
+-----
+<Comp prop="value"/>
+inside component----> prop.name (using it)
+
 
 Import and Export
 ---------------------

@@ -1,7 +1,7 @@
-import anything from "./vijay.js";
-import { details, noOfMovies } from "./vijay.js";
+function printName(a, b) {
+  console.log(767);
+  return a + b * (a - b);
+}
 
-console.log(details);
-console.log(anything);
-console.log(noOfMovies);
-
+let ans = printName(4, 4);
+console.log(ans);
